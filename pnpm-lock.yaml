@@ -58,6 +58,9 @@ importers:
       '@babel/runtime':
         specifier: ^7.20.0
         version: 7.23.1
+      '@callstack/repack':
+        specifier: 4.2.0-canary-20240808200412
+        version: 4.2.0-canary-20240808200412(@react-native-community/cli-types@10.0.0)(@react-native-community/cli@10.2.7(@babel/core@7.23.0)(encoding@0.1.13))(encoding@0.1.13)(react-native@0.71.19(@babel/core@7.23.0)(encoding@0.1.13)(react@18.2.0))(type-fest@0.21.3)(webpack@5.88.2)
       '@react-native/eslint-config':
         specifier: ^0.74.0
         version: 0.74.0(eslint@8.51.0)(jest@29.7.0(@types/node@20.8.4))(prettier@2.8.8)(typescript@4.8.4)
@@ -164,6 +167,9 @@ importers:
       '@babel/runtime':
         specifier: ^7.20.0
         version: 7.23.1
+      '@callstack/repack':
+        specifier: 4.2.0-canary-20240808200412
+        version: 4.2.0-canary-20240808200412(@react-native-community/cli-types@10.0.0)(@react-native-community/cli@10.2.7(@babel/core@7.23.0)(encoding@0.1.13))(encoding@0.1.13)(react-native@0.71.19(@babel/core@7.23.0)(encoding@0.1.13)(react@18.2.0))(type-fest@0.21.3)(webpack@5.88.2)
       '@react-native/eslint-config':
         specifier: ^0.74.0
         version: 0.74.0(eslint@8.51.0)(jest@29.7.0(@types/node@20.8.4))(prettier@2.8.8)(typescript@4.8.4)
@@ -233,6 +239,10 @@ importers:
       express:
         specifier: ^4.18.2
         version: 4.18.2
+    devDependencies:
+      '@callstack/repack':
+        specifier: 4.2.0-canary-20240808200412
+        version: 4.2.0-canary-20240808200412(@react-native-community/cli-types@10.0.0)(@react-native-community/cli@10.2.7(@babel/core@7.23.0)(encoding@0.1.13))(encoding@0.1.13)(react-native@0.71.19(@babel/core@7.23.0)(encoding@0.1.13)(react@18.2.0))(type-fest@0.21.3)(webpack@5.88.2)
 
   packages/dashboard:
     dependencies:
@@ -279,6 +289,9 @@ importers:
       '@babel/runtime':
         specifier: ^7.20.0
         version: 7.23.1
+      '@callstack/repack':
+        specifier: 4.2.0-canary-20240808200412
+        version: 4.2.0-canary-20240808200412(@react-native-community/cli-types@10.0.0)(@react-native-community/cli@10.2.7(@babel/core@7.23.0)(encoding@0.1.13))(encoding@0.1.13)(react-native@0.71.19(@babel/core@7.23.0)(encoding@0.1.13)(react@18.2.0))(type-fest@0.21.3)(webpack@5.88.2)
       '@react-native/eslint-config':
         specifier: ^0.74.0
         version: 0.74.0(eslint@8.51.0)(jest@29.7.0(@types/node@20.8.4))(prettier@2.8.8)(typescript@4.8.4)
@@ -342,9 +355,6 @@ importers:
 
   packages/host:
     dependencies:
-      '@callstack/repack':
-        specifier: 4.2.0-canary-20240803153933
-        version: 4.2.0-canary-20240803153933(@react-native-community/cli-types@10.0.0)(@react-native-community/cli@10.2.7(@babel/core@7.23.0)(encoding@0.1.13))(encoding@0.1.13)(react-native@0.71.19(@babel/core@7.23.0)(@babel/preset-env@7.22.20(@babel/core@7.23.0))(encoding@0.1.13)(react@18.2.0))(type-fest@0.21.3)(webpack@5.88.2)
       '@react-native-async-storage/async-storage':
         specifier: 1.17.11
         version: 1.17.11(react-native@0.71.19(@babel/core@7.23.0)(@babel/preset-env@7.22.20(@babel/core@7.23.0))(encoding@0.1.13)(react@18.2.0))
@@ -388,6 +398,9 @@ importers:
       '@babel/runtime':
         specifier: ^7.20.0
         version: 7.23.1
+      '@callstack/repack':
+        specifier: 4.2.0-canary-20240808200412
+        version: 4.2.0-canary-20240808200412(@react-native-community/cli-types@10.0.0)(@react-native-community/cli@10.2.7(@babel/core@7.23.0)(encoding@0.1.13))(encoding@0.1.13)(react-native@0.71.19(@babel/core@7.23.0)(encoding@0.1.13)(react@18.2.0))(type-fest@0.21.3)(webpack@5.88.2)
       '@react-native/eslint-config':
         specifier: ^0.74.0
         version: 0.74.0(eslint@8.51.0)(jest@29.7.0(@types/node@20.8.4))(prettier@2.8.8)(typescript@4.8.4)
@@ -452,7 +465,11 @@ importers:
         specifier: ^5.75.0
         version: 5.88.2
 
-  packages/sdk: {}
+  packages/sdk:
+    devDependencies:
+      '@callstack/repack':
+        specifier: 4.2.0-canary-20240808200412
+        version: 4.2.0-canary-20240808200412(@react-native-community/cli-types@10.0.0)(@react-native-community/cli@10.2.7(@babel/core@7.23.0)(encoding@0.1.13))(encoding@0.1.13)(react-native@0.71.19(@babel/core@7.23.0)(encoding@0.1.13)(react@18.2.0))(type-fest@0.21.3)(webpack@5.88.2)
 
   packages/shell:
     dependencies:
@@ -499,6 +516,9 @@ importers:
       '@babel/runtime':
         specifier: ^7.20.0
         version: 7.23.1
+      '@callstack/repack':
+        specifier: 4.2.0-canary-20240808200412
+        version: 4.2.0-canary-20240808200412(@react-native-community/cli-types@10.0.0)(@react-native-community/cli@10.2.7(@babel/core@7.23.0)(encoding@0.1.13))(encoding@0.1.13)(react-native@0.71.19(@babel/core@7.23.0)(encoding@0.1.13)(react@18.2.0))(type-fest@0.21.3)(webpack@5.88.2)
       '@react-native/eslint-config':
         specifier: ^0.74.0
         version: 0.74.0(eslint@8.51.0)(jest@29.7.0(@types/node@20.8.4))(prettier@2.8.8)(typescript@4.8.4)
@@ -605,6 +625,9 @@ importers:
       '@babel/runtime':
         specifier: ^7.20.0
         version: 7.23.1
+      '@callstack/repack':
+        specifier: 4.2.0-canary-20240808200412
+        version: 4.2.0-canary-20240808200412(@react-native-community/cli-types@10.0.0)(@react-native-community/cli@10.2.7(@babel/core@7.23.0)(encoding@0.1.13))(encoding@0.1.13)(react-native@0.71.19(@babel/core@7.23.0)(encoding@0.1.13)(react@18.2.0))(type-fest@0.21.3)(webpack@5.88.2)
       '@react-native/eslint-config':
         specifier: ^0.74.0
         version: 0.74.0(eslint@8.51.0)(jest@29.7.0(@types/node@20.8.4))(prettier@2.8.8)(typescript@4.8.4)
@@ -1392,8 +1415,8 @@ packages:
     peerDependencies:
       react: '>=16.3.0'
 
-  '@callstack/repack-dev-server@4.2.0-canary-20240803162111':
-    resolution: {integrity: sha512-Dhx09k6S/T42jwrOX5yqNmIAhuNdQmRpPzUHZoI8ds2Y3tT6c/7QJdMJKdjFY44SC1XDJ/f5wAW0AbojAfWPvw==}
+  '@callstack/repack-dev-server@4.2.0-canary-20240808200412':
+    resolution: {integrity: sha512-pMxb8e0aBxHywZ42Kvm3PIeW62UwWNkobMX/Z4nxGueUka7SVHNUxwkTcOZBoKdY4VM3qqVhzEzlXJUg5X6ZUA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@react-native-community/cli-debugger-ui': '>=11.3.1'
@@ -1404,8 +1427,8 @@ packages:
       '@react-native-community/cli-server-api':
         optional: true
 
-  '@callstack/repack@4.2.0-canary-20240803153933':
-    resolution: {integrity: sha512-oUjSd/5VFv3r8p8objywYuVyJk8OoiuHVJr5dxgoccPChPN4kPWbsTZ3KCPJuSN+h6ZIBuMQIt6g6P+lVT5ITQ==}
+  '@callstack/repack@4.2.0-canary-20240808200412':
+    resolution: {integrity: sha512-JQLR7iVVdBh5WR11Fw5x1rUfA1Shanwes61U8AJZU2XcudEVb+MJFrjB7MppUDzuV4kbcGN8bDBBqjwKMGlvwQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@react-native-community/cli': '*'
@@ -2263,8 +2286,8 @@ packages:
     resolution: {integrity: sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==}
     engines: {node: '>= 0.4'}
 
-  avvio@8.3.2:
-    resolution: {integrity: sha512-st8e519GWHa/azv8S87mcJvZs4WsgTBjOw/Ih1CP6u+8SZvcOeAYNG6JbsIrAUUJJ7JfmrnOkR8ipDS+u9SIRQ==}
+  avvio@8.4.0:
+    resolution: {integrity: sha512-CDSwaxINFy59iNwhYnkvALBwZiTydGkOecZyPkqBpABYR1KqGEsET0VOOYDwtleZSUIdeY36DC2bSZ24CO1igA==}
 
   b4a@1.6.4:
     resolution: {integrity: sha512-fpWrvyVHEKyeEvbKZTVOeZF3VSKKWtJxFIxX/jaVPf+cLbGUSitjb49pHLqPV2BUNNZ0LcoeEGfE/YCpyDYHIw==}
@@ -6432,7 +6455,7 @@ snapshots:
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
 
-  '@callstack/repack-dev-server@4.2.0-canary-20240803162111(encoding@0.1.13)':
+  '@callstack/repack-dev-server@4.2.0-canary-20240808200412(encoding@0.1.13)':
     dependencies:
       '@babel/code-frame': 7.22.13
       '@fastify/middie': 8.3.1
@@ -6451,9 +6474,9 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@callstack/repack@4.2.0-canary-20240803153933(@react-native-community/cli-types@10.0.0)(@react-native-community/cli@10.2.7(@babel/core@7.23.0)(encoding@0.1.13))(encoding@0.1.13)(react-native@0.71.19(@babel/core@7.23.0)(@babel/preset-env@7.22.20(@babel/core@7.23.0))(encoding@0.1.13)(react@18.2.0))(type-fest@0.21.3)(webpack@5.88.2)':
+  '@callstack/repack@4.2.0-canary-20240808200412(@react-native-community/cli-types@10.0.0)(@react-native-community/cli@10.2.7(@babel/core@7.23.0)(encoding@0.1.13))(encoding@0.1.13)(react-native@0.71.19(@babel/core@7.23.0)(encoding@0.1.13)(react@18.2.0))(type-fest@0.21.3)(webpack@5.88.2)':
     dependencies:
-      '@callstack/repack-dev-server': 4.2.0-canary-20240803162111(encoding@0.1.13)
+      '@callstack/repack-dev-server': 4.2.0-canary-20240808200412(encoding@0.1.13)
       '@discoveryjs/json-ext': 0.5.7
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.15(react-refresh@0.14.2)(type-fest@0.21.3)(webpack@5.88.2)
       '@react-native-community/cli': 10.2.7(@babel/core@7.23.0)(encoding@0.1.13)
@@ -7801,7 +7824,7 @@ snapshots:
 
   available-typed-arrays@1.0.5: {}
 
-  avvio@8.3.2:
+  avvio@8.4.0:
     dependencies:
       '@fastify/error': 3.4.1
       fastq: 1.17.1
@@ -8788,7 +8811,7 @@ snapshots:
       '@fastify/error': 3.4.1
       '@fastify/fast-json-stringify-compiler': 4.3.0
       abstract-logging: 2.0.1
-      avvio: 8.3.2
+      avvio: 8.4.0
       fast-content-type-parse: 1.1.0
       fast-json-stringify: 5.16.1
       find-my-way: 8.2.0

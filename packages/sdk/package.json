@@ -16,5 +16,8 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
+  },
+  "devDependencies": {
+    "@callstack/repack": "4.2.0-canary-20240808200412"
   }
 }
